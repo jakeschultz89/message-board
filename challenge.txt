@@ -1,0 +1,11 @@
+Mini challenge #3
+
+Our pages app has grown in size and in purpose.
+We should separate "pages" logic from "posts" logic so that
+the code doesn't become unmaintainable.
+
+1. Create a dedicated "posts" app.
+2. Install it.
+3. Move the "posts" views to this new app.
+4. Move the urlpatterns that relate to posts to this new app.
+5. Move the posts model to this new app.
